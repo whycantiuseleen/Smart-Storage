@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andriod="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nav_MainMenu"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24px"/>
+
+    <item android:id="@+id/nav_aAccount"
+        android:title="My Account"
+        android:icon="@drawable/ic_face_black_24px"/>
+
+    <item android:id="@+id/nav_Statistics"
+        android:title="Statistics"
+        android:icon="@drawable/ic_build_black_24px"/>
+
+    <item android:id="@+id/nav_BookingHistory"
+        android:title="Booking History"
+        android:icon="@drawable/ic_dashboard_black_24px"/>
+
+    <item android:id="@+id/nav_Reports"
+        android:title="Reports"
+        android:icon="@drawable/ic_help_outline_black_24px"/>
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navibar_array">
+        <item>My Account</item>
+        <item>Booking</item>
+        <item>Tools</item>
+        <item>Main Menu</item>
+        <item>Help Service</item>
+    </string-array>
+
+    <string-array name="Spinner1">
+        <item>Toolbox1 </item>
+        <item>Toolbox2</item>
+        <item>Drillbox1</item>
+        <item>Drillbox2</item>
+    </string-array>
+
+    <string-array name="navi_adminarray">
+        <item>My Account</item>
+        <item>Booking History</item>
+        <item>Statistics</item>
+        <item>Reports</item>
+        <item>Main Menu</item>
+
+    </string-array>
+
+    <string-array name="spinner2">
+        <item>August17</item>
+        <item>September17</item>
+        <item>October17</item>
+        <item>November17</item>
+        <item>December17</item>
+    </string-array>
+</resources>

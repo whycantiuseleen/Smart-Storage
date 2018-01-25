@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.eileen.smartstorage.Profile">
+
+    <TextView
+        android:id="@+id/tName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tStudentId1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID:"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tContact1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Contact Number:"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tTimeSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timeslot:"
+        android:textSize="20sp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/tTool1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Booked Item:"
+        android:textSize="20sp"/>
+
+</LinearLayout>

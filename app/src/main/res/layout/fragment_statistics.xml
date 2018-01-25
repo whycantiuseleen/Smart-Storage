@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.eileen.smartstorage.Statistics">
+
+    <ImageView
+        android:id="@+id/statsbanner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/statsbanner"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/month_vs_total_tools"
+                android:layout_margin="10dp"/>
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/graph1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/month_vs_individual_tools"/>
+
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/spinner2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+            </Spinner>
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/graph2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

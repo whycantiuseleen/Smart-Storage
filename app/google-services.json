@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "193005057712",
+    "firebase_url": "https://storageapp-10875.firebaseio.com",
+    "project_id": "storageapp-10875",
+    "storage_bucket": "storageapp-10875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193005057712:android:b39f27d6ff4e05ff",
+        "android_client_info": {
+          "package_name": "com.example.StorageApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193005057712-nk5qnvqcjn71u2lfkus286s3v8mlcr90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcI30JDHRf2ogN6UmVWELfvrr338igiJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193005057712:android:7f3ef1944b0043cd",
+        "android_client_info": {
+          "package_name": "com.example.eileen.smartstorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193005057712-nk5qnvqcjn71u2lfkus286s3v8mlcr90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcI30JDHRf2ogN6UmVWELfvrr338igiJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

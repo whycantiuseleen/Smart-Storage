@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/white"
+android:id="@+id/fragment_account"
+tools:context="com.example.eileen.smartstorage.AccountAdmin">
+
+<ImageView
+    android:id="@+id/accountbanner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/account5"
+    android:adjustViewBounds="true" />
+
+<TextView
+    android:id="@+id/tNameAdmin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/tName"
+    android:textSize="25sp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:textColor="@color/lighterblack"
+    android:layout_below="@+id/accountbanner"/>
+<TextView
+    android:id="@+id/tAdminID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Admin ID:"
+    android:textSize="25sp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:textColor="@color/lighterblack"
+    android:layout_below="@+id/tNameAdmin"/>
+
+<Button
+    android:id="@+id/btnStatistics"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:text="View Statistics"
+    android:textSize="15sp"
+    android:layout_below="@id/tAdminID"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginRight="10dp"/>
+<Button
+    android:id="@+id/btnReport2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnStatistics"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:text="View Reports"
+    android:textSize="15sp"/>
+
+</RelativeLayout>

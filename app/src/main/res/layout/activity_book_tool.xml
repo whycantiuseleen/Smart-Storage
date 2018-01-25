@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorAccent"
+    tools:context="com.example.eileen.smartstorage.BookTool">
+
+
+    <TextView
+        android:id="@+id/tBooking1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Book ToolBox 1 from 9am to 10am?"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number:"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_below="@id/tBooking1" />
+    <EditText
+        android:id="@+id/etContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Enter Contact Number"
+        android:inputType="number"
+        android:layout_below="@+id/tContact"/>
+    <Button
+        android:id="@+id/btnyes1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etContact"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Confirm" />
+    <Button
+        android:id="@+id/btnNo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnyes1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Cancel"/>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SmartStorage</string>
+    <string name="btnLogin">Login</string>
+    <string name="etPassword">Password</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="tName">Name:</string>
+    <string name="tStudentId">Student ID:</string>
+    <string name="level">Year/Pillar:</string>
+    <string name="upBooking">Upcoming Booking:</string>
+    <string name="btnHistory">History</string>
+    <string name="btnReturn">Scanner</string>
+    <string name="tMakeBooking">Make A Booking</string>
+    <string name="tBooking">Booking</string>
+    <string name="tTiming">Timeslot</string>
+    <string name="tDuration">Duration</string>
+    <string name="tTools">Tools:</string>
+
+    <string name="tAnnouncements">Announcements:</string>
+    <string name="nobooking">No Upcoming Booking</string>
+    <string name="name">Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="month_vs_total_tools">Month vs Total Tools:</string>
+    <string name="month_vs_individual_tools">Month vs Individual Tools:</string>
+
+</resources>
